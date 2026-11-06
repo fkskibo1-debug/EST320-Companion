@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+@theme {
+  --breakpoint-desk: 56.25rem;
+
+  --color-page: #eef1f4;
+  --color-ink: #16232b;
+  --color-muted: #5b6b76;
+  --color-line: #d9dfe5;
+  --color-bubble-ai: #e6eef0;
+}
+
+@utility label-mono {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+html {
+  background: var(--color-page);
+}
+
+body {
+  color: var(--color-ink);
+}
