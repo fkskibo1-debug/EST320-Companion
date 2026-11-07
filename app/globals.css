@@ -27,6 +27,10 @@ html {
   background: var(--color-page);
 }
 
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+
 body {
   color: var(--color-ink);
 }
