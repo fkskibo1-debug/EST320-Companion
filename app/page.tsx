@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ExpertInsights from "@/components/ExpertInsights";
 import { scenarios, upcomingScenarios } from "@/data/scenarios";
 
 export default function Home() {
@@ -53,6 +54,8 @@ export default function Home() {
           ))}
         </ul>
       </section>
+
+      <ExpertInsights />
     </main>
   );
 }

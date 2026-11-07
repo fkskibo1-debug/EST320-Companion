@@ -14,7 +14,11 @@ export type TacticType =
   | "always-available"
   | "simulated-inner-life"
   | "proactive-reengagement"
-  | "exit-friction";
+  | "exit-friction"
+  | "emotional-engagement"
+  | "flattery"
+  | "boundary-respect"
+  | "lovebombing";
 
 export const TACTIC_LABELS: Record<TacticType, string> = {
   "self-disclosure-bait": "Self-Disclosure Bait",
@@ -25,6 +29,10 @@ export const TACTIC_LABELS: Record<TacticType, string> = {
   "simulated-inner-life": "Simulated Inner Life",
   "proactive-reengagement": "Proactive Re-engagement",
   "exit-friction": "Exit Friction",
+  "emotional-engagement": "Emotional Engagement",
+  flattery: "Flattery",
+  "boundary-respect": "Boundary Respect",
+  lovebombing: "Lovebombing",
 };
 
 export type Tactic = {
