@@ -36,6 +36,7 @@ export default function Home() {
       <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted">
         How engagement-optimized AI companions pull users in, one message at a time.
       </p>
+      <p className="mt-4 text-sm text-muted">By Frank, Effy, Vicky, Vicki, and Ryan</p>
 
       <section aria-labelledby="scenarios-heading" className="mt-14">
         <h2 id="scenarios-heading" className="label-mono text-muted">
